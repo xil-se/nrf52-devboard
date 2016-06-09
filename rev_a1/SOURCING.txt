@@ -1,0 +1,16 @@
+Diodes
+    Iavg = 1.0A
+    Package = DO-214BA (GF1)
+    Price = 0.4 EUR
+    625-RGF1M-E3
+    http://www.mouser.se/search/ProductDetail.aspx?R=0virtualkey0virtualkeyRGF1M-E3-67A
+    
+
+LDO
+    Vout = 3.3V
+    I = 500mA
+    Package = SOT-223
+    Price = 0.5 EUR
+    579-TC1262-3.3VDBTR
+    http://www.mouser.se/ProductDetail/Microchip-Technology/TC1262-33VDBTR/?qs=sGAEpiMZZMsGz1a6aV8DcEDIzEx6jfI2UkJfaX9b1ao%3d
+

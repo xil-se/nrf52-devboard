@@ -1,0 +1,6 @@
+[submodule "nc-libs"]
+	path = nc-libs
+	url = https://github.com/nekromant/nc-libs
+[submodule "kicad-library"]
+	path = kicad-library
+	url = https://github.com/ruuvi/kicad-library
