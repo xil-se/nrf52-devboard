@@ -436,17 +436,6 @@ F 3 "" H 9650 5400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
-U 1 1 57598347
-P 9400 4300
-F 0 "#PWR018" H 9400 4050 50  0001 C CNN
-F 1 "GND" V 9400 4000 50  0000 L CNN
-F 2 "" H 9400 4300 50  0000 C CNN
-F 3 "" H 9400 4300 50  0000 C CNN
-	1    9400 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L CONN_01X18 P1
 U 1 1 57597D15
 P 9350 5400
@@ -458,21 +447,10 @@ F 3 "" H 9350 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR019
-U 1 1 57598D93
-P 9400 4150
-F 0 "#PWR019" H 9400 4000 50  0001 C CNN
-F 1 "+3V3" V 9400 4274 50  0000 L CNN
-F 2 "" H 9400 4150 50  0000 C CNN
-F 3 "" H 9400 4150 50  0000 C CNN
-	1    9400 4150
-	0    1    -1   0   
-$EndComp
-$Comp
-L +3V3 #PWR020
+L +3V3 #PWR018
 U 1 1 57599355
 P 2700 4950
-F 0 "#PWR020" H 2700 4800 50  0001 C CNN
+F 0 "#PWR018" H 2700 4800 50  0001 C CNN
 F 1 "+3V3" V 2700 5150 50  0000 C CNN
 F 2 "" H 2700 4950 50  0000 C CNN
 F 3 "" H 2700 4950 50  0000 C CNN
@@ -491,10 +469,10 @@ F 3 "" V 950 6550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR021
+L GND #PWR019
 U 1 1 57599CC0
 P 900 7050
-F 0 "#PWR021" H 900 6800 50  0001 C CNN
+F 0 "#PWR019" H 900 6800 50  0001 C CNN
 F 1 "GND" H 900 6900 50  0000 C CNN
 F 2 "" H 900 7050 50  0000 C CNN
 F 3 "" H 900 7050 50  0000 C CNN
@@ -502,10 +480,10 @@ F 3 "" H 900 7050 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L GND #PWR020
 U 1 1 57599E62
 P 1300 6850
-F 0 "#PWR022" H 1300 6600 50  0001 C CNN
+F 0 "#PWR020" H 1300 6600 50  0001 C CNN
 F 1 "GND" H 1300 6700 50  0000 C CNN
 F 2 "" H 1300 6850 50  0000 C CNN
 F 3 "" H 1300 6850 50  0000 C CNN
@@ -547,10 +525,10 @@ NoConn ~ 3250 7550
 NoConn ~ 3350 7550
 NoConn ~ 3550 7550
 $Comp
-L GND #PWR023
+L GND #PWR021
 U 1 1 5759B7C2
 P 3150 7550
-F 0 "#PWR023" H 3150 7300 50  0001 C CNN
+F 0 "#PWR021" H 3150 7300 50  0001 C CNN
 F 1 "GND" H 3150 7400 50  0000 C CNN
 F 2 "" H 3150 7550 50  0000 C CNN
 F 3 "" H 3150 7550 50  0000 C CNN
@@ -578,10 +556,10 @@ F 3 "" H 1350 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR024
+L +5V #PWR022
 U 1 1 5759E11F
 P 900 4950
-F 0 "#PWR024" H 900 4800 50  0001 C CNN
+F 0 "#PWR022" H 900 4800 50  0001 C CNN
 F 1 "+5V" V 900 5150 50  0000 C CNN
 F 2 "" H 900 4950 50  0000 C CNN
 F 3 "" H 900 4950 50  0000 C CNN
@@ -589,23 +567,23 @@ F 3 "" H 900 4950 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L +3V3 #PWR025
+L +3V3 #PWR023
 U 1 1 5759E6E9
 P 4250 5550
-F 0 "#PWR025" H 4250 5400 50  0001 C CNN
+F 0 "#PWR023" H 4250 5400 50  0001 C CNN
 F 1 "+3V3" H 4250 5690 50  0000 C CNN
 F 2 "" H 4250 5550 50  0000 C CNN
 F 3 "" H 4250 5550 50  0000 C CNN
 	1    4250 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 9850 6150 2    60   Input ~ 0
+Text GLabel 9850 6150 2    47   Input ~ 0
 5V_IN
 $Comp
-L +5V #PWR026
+L +5V #PWR024
 U 1 1 575C79F8
 P 1650 4350
-F 0 "#PWR026" H 1650 4200 50  0001 C CNN
+F 0 "#PWR024" H 1650 4200 50  0001 C CNN
 F 1 "+5V" V 1650 4550 50  0000 C CNN
 F 2 "" H 1650 4350 50  0000 C CNN
 F 3 "" H 1650 4350 50  0000 C CNN
@@ -623,152 +601,148 @@ F 3 "" H 1350 4350 50  0000 C CNN
 	1    1350 4350
 	-1   0    0    1   
 $EndComp
-Text GLabel 9150 5850 0    60   Input ~ 0
+Text GLabel 9150 5850 0    47   Input ~ 0
 P0.17
-Text GLabel 9150 5750 0    60   Input ~ 0
+Text GLabel 9150 5750 0    47   Input ~ 0
 P0.16
-Text GLabel 9150 5650 0    60   Input ~ 0
+Text GLabel 9150 5650 0    47   Input ~ 0
 P0.15
-Text GLabel 9150 5550 0    60   Input ~ 0
+Text GLabel 9150 5550 0    47   Input ~ 0
 P0.14
-Text GLabel 9150 5450 0    60   Input ~ 0
+Text GLabel 9150 5450 0    47   Input ~ 0
 P0.13
-Text GLabel 9150 5350 0    60   Input ~ 0
+Text GLabel 9150 5350 0    47   Input ~ 0
 P0.12
-Text GLabel 9150 5250 0    60   Input ~ 0
+Text GLabel 9150 5250 0    47   Input ~ 0
 P0.11
-Text GLabel 9150 4550 0    60   Input ~ 0
+Text GLabel 9150 4550 0    47   Input ~ 0
 P0.02
-Text GLabel 9150 4650 0    60   Input ~ 0
+Text GLabel 9150 4650 0    47   Input ~ 0
 P0.03
-Text GLabel 9150 4750 0    60   Input ~ 0
+Text GLabel 9150 4750 0    47   Input ~ 0
 P0.04
-Text GLabel 9150 4850 0    60   Input ~ 0
+Text GLabel 9150 4850 0    47   Input ~ 0
 P0.05
-Text GLabel 9150 4950 0    60   Input ~ 0
+Text GLabel 9150 4950 0    47   Input ~ 0
 P0.06
-Text GLabel 9150 5050 0    60   Input ~ 0
-P0.07
-Text GLabel 9150 5150 0    60   Input ~ 0
-P0.08
-Text GLabel 9150 6050 0    60   Input ~ 0
+Text GLabel 9150 6050 0    47   Input ~ 0
 P0.19
-Text GLabel 9850 5850 2    60   Input ~ 0
+Text GLabel 9850 5850 2    47   Input ~ 0
 P0.20
-Text GLabel 9850 5750 2    60   Input ~ 0
+Text GLabel 9850 5750 2    47   Input ~ 0
 P0.21
-Text GLabel 9850 5450 2    60   Input ~ 0
+Text GLabel 9850 5450 2    47   Input ~ 0
 P0.22
-Text GLabel 9850 5350 2    60   Input ~ 0
+Text GLabel 9850 5350 2    47   Input ~ 0
 P0.23
-Text GLabel 9850 5250 2    60   Input ~ 0
+Text GLabel 9850 5250 2    47   Input ~ 0
 P0.24
-Text GLabel 9850 5150 2    60   Input ~ 0
+Text GLabel 9850 5150 2    47   Input ~ 0
 P0.25
-Text GLabel 9850 5050 2    60   Input ~ 0
+Text GLabel 9850 5050 2    47   Input ~ 0
 P0.26
-Text GLabel 9850 4950 2    60   Input ~ 0
+Text GLabel 9850 4950 2    47   Input ~ 0
 P0.27
-Text GLabel 9850 4850 2    60   Input ~ 0
+Text GLabel 9850 4850 2    47   Input ~ 0
 P0.28
-Text GLabel 9850 4750 2    60   Input ~ 0
+Text GLabel 9850 4750 2    47   Input ~ 0
 P0.29
-Text GLabel 9850 4650 2    60   Input ~ 0
+Text GLabel 9850 4650 2    47   Input ~ 0
 P0.30
-Text GLabel 9150 5950 0    60   Input ~ 0
+Text GLabel 9150 5950 0    47   Input ~ 0
 P0.18
-Text GLabel 9850 4550 2    60   Input ~ 0
+Text GLabel 9850 4550 2    47   Input ~ 0
 P0.31
-Text GLabel 3250 2300 0    60   Input ~ 0
+Text GLabel 3250 2300 0    47   Input ~ 0
 P0.02
-Text GLabel 3250 2400 0    60   Input ~ 0
+Text GLabel 3250 2400 0    47   Input ~ 0
 P0.03
-Text GLabel 3250 2500 0    60   Input ~ 0
+Text GLabel 3250 2500 0    47   Input ~ 0
 P0.04
-Text GLabel 3250 2600 0    60   Input ~ 0
+Text GLabel 3250 2600 0    47   Input ~ 0
 P0.05
-Text GLabel 3250 2700 0    60   Input ~ 0
+Text GLabel 3250 2700 0    47   Input ~ 0
 P0.06
-Text GLabel 3250 2800 0    60   Input ~ 0
+Text GLabel 3250 2800 0    47   Input ~ 0
 P0.07
-Text GLabel 3250 2900 0    60   Input ~ 0
+Text GLabel 3250 2900 0    47   Input ~ 0
 P0.08
-Text GLabel 5450 2700 2    60   Input ~ 0
+Text GLabel 5450 2700 2    47   Input ~ 0
 P0.19
-Text GLabel 5450 2600 2    60   Input ~ 0
+Text GLabel 5450 2600 2    47   Input ~ 0
 P0.20
-Text GLabel 5450 2500 2    60   Input ~ 0
+Text GLabel 5450 2500 2    47   Input ~ 0
 P0.21
-Text GLabel 5450 2800 2    60   Input ~ 0
+Text GLabel 5450 2800 2    47   Input ~ 0
 P0.18
-Text GLabel 5450 2900 2    60   Input ~ 0
+Text GLabel 5450 2900 2    47   Input ~ 0
 P0.17
-Text GLabel 5450 3000 2    60   Input ~ 0
+Text GLabel 5450 3000 2    47   Input ~ 0
 P0.16
-Text GLabel 5450 3100 2    60   Input ~ 0
+Text GLabel 5450 3100 2    47   Input ~ 0
 P0.15
-Text GLabel 5450 3200 2    60   Input ~ 0
+Text GLabel 5450 3200 2    47   Input ~ 0
 P0.14
-Text GLabel 5450 3300 2    60   Input ~ 0
+Text GLabel 5450 3300 2    47   Input ~ 0
 P0.13
-Text GLabel 5450 3400 2    60   Input ~ 0
+Text GLabel 5450 3400 2    47   Input ~ 0
 P0.12
-Text GLabel 5450 3500 2    60   Input ~ 0
+Text GLabel 5450 3500 2    47   Input ~ 0
 P0.11
-Text GLabel 5450 2200 2    60   Input ~ 0
+Text GLabel 5450 2200 2    47   Input ~ 0
 P0.22
-Text GLabel 5450 2100 2    60   Input ~ 0
+Text GLabel 5450 2100 2    47   Input ~ 0
 P0.23
-Text GLabel 5450 2000 2    60   Input ~ 0
+Text GLabel 5450 2000 2    47   Input ~ 0
 P0.24
-Text GLabel 5450 1800 2    60   Input ~ 0
+Text GLabel 5450 1800 2    47   Input ~ 0
 P0.25
-Text GLabel 5450 1700 2    60   Input ~ 0
+Text GLabel 5450 1700 2    47   Input ~ 0
 P0.26
-Text GLabel 5450 1600 2    60   Input ~ 0
+Text GLabel 5450 1600 2    47   Input ~ 0
 P0.27
-Text GLabel 5450 1500 2    60   Input ~ 0
+Text GLabel 5450 1500 2    47   Input ~ 0
 P0.28
-Text GLabel 5450 1400 2    60   Input ~ 0
+Text GLabel 5450 1400 2    47   Input ~ 0
 P0.29
-Text GLabel 5450 1300 2    60   Input ~ 0
+Text GLabel 5450 1300 2    47   Input ~ 0
 P0.30
-Text GLabel 5450 1200 2    60   Input ~ 0
+Text GLabel 5450 1200 2    47   Input ~ 0
 P0.31
 $Comp
-L +3V3 #PWR027
+L +3V3 #PWR025
 U 1 1 575CB207
-P 3150 650
-F 0 "#PWR027" H 3150 500 50  0001 C CNN
-F 1 "+3V3" H 3150 800 50  0000 C CNN
-F 2 "" H 3150 650 50  0000 C CNN
-F 3 "" H 3150 650 50  0000 C CNN
-	1    3150 650 
+P 3150 700
+F 0 "#PWR025" H 3150 550 50  0001 C CNN
+F 1 "+3V3" H 3150 850 50  0000 C CNN
+F 2 "" H 3150 700 50  0000 C CNN
+F 3 "" H 3150 700 50  0000 C CNN
+	1    3150 700 
 	-1   0    0    -1  
 $EndComp
-Text GLabel 5050 6350 2    60   Input ~ 0
+Text GLabel 5050 6350 2    47   Input ~ 0
 UART_TXD
-Text GLabel 5050 6450 2    60   Input ~ 0
+Text GLabel 5050 6450 2    47   Input ~ 0
 UART_RXD
-Text GLabel 5050 6550 2    60   Input ~ 0
+Text GLabel 5050 6550 2    47   Input ~ 0
 UART_RTS
-Text GLabel 5050 6650 2    60   Input ~ 0
+Text GLabel 5050 6650 2    47   Input ~ 0
 UART_CTS
-Text GLabel 2500 2900 0    60   Input ~ 0
+Text GLabel 2500 2900 0    47   Input ~ 0
 UART_TXD
-Text GLabel 2500 2700 0    60   Input ~ 0
+Text GLabel 2500 2700 0    47   Input ~ 0
 UART_RXD
-Text GLabel 2500 2800 0    60   Input ~ 0
+Text GLabel 2500 2800 0    47   Input ~ 0
 UART_RTS
-Text GLabel 2500 2600 0    60   Input ~ 0
+Text GLabel 2500 2600 0    47   Input ~ 0
 UART_CTS
-Text GLabel 1300 6650 2    60   Input ~ 0
+Text GLabel 1300 6650 2    47   Input ~ 0
 USB_D+
-Text GLabel 1300 6550 2    60   Input ~ 0
+Text GLabel 1300 6550 2    47   Input ~ 0
 USB_D-
-Text GLabel 2350 6150 0    60   Input ~ 0
+Text GLabel 2350 6150 0    47   Input ~ 0
 USB_D+
-Text GLabel 2350 6250 0    60   Input ~ 0
+Text GLabel 2350 6250 0    47   Input ~ 0
 USB_D-
 $Comp
 L Crystal Y1
@@ -804,10 +778,10 @@ F 3 "" H 5050 4500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR028
+L GND #PWR026
 U 1 1 575D0E9A
 P 3650 4500
-F 0 "#PWR028" H 3650 4250 50  0001 C CNN
+F 0 "#PWR026" H 3650 4250 50  0001 C CNN
 F 1 "GND" V 3649 4312 50  0000 C CNN
 F 2 "" H 3650 4500 50  0000 C CNN
 F 3 "" H 3650 4500 50  0000 C CNN
@@ -815,49 +789,49 @@ F 3 "" H 3650 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR029
+L GND #PWR027
 U 1 1 575D0EA0
 P 5200 4500
-F 0 "#PWR029" H 5200 4250 50  0001 C CNN
+F 0 "#PWR027" H 5200 4250 50  0001 C CNN
 F 1 "GND" V 5199 4312 50  0000 C CNN
 F 2 "" H 5200 4500 50  0000 C CNN
 F 3 "" H 5200 4500 50  0000 C CNN
 	1    5200 4500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4050 4400 2    60   Input ~ 0
+Text GLabel 4050 4400 2    47   Input ~ 0
 XL1
-Text GLabel 4750 4400 0    60   Input ~ 0
+Text GLabel 4750 4400 0    47   Input ~ 0
 XL2
-Text GLabel 3250 2100 0    60   Input ~ 0
+Text GLabel 3250 2100 0    47   Input ~ 0
 XL1
-Text GLabel 3250 2200 0    60   Input ~ 0
+Text GLabel 3250 2200 0    47   Input ~ 0
 XL2
-Text GLabel 4050 3900 2    60   Input ~ 0
+Text GLabel 4050 3900 2    47   Input ~ 0
 XC1
-Text GLabel 4750 3900 0    60   Input ~ 0
+Text GLabel 4750 3900 0    47   Input ~ 0
 XC2
-Text GLabel 3250 1800 0    60   Input ~ 0
+Text GLabel 3250 1800 0    47   Input ~ 0
 XC1
-Text GLabel 3250 1900 0    60   Input ~ 0
+Text GLabel 3250 1900 0    47   Input ~ 0
 XC2
-Text GLabel 9850 5550 2    60   Input ~ 0
+Text GLabel 9850 5550 2    47   Input ~ 0
 SWDIO
-Text GLabel 9850 5650 2    60   Input ~ 0
+Text GLabel 9850 5650 2    47   Input ~ 0
 SWDCLK
-Text GLabel 6250 2500 2    60   Input ~ 0
+Text GLabel 6250 2500 2    47   Input ~ 0
 RESET
-Text GLabel 6250 2800 2    60   Input ~ 0
+Text GLabel 6250 2800 2    39   Input ~ 0
 SWO
-Text GLabel 6250 2300 2    60   Input ~ 0
+Text GLabel 6250 2300 2    47   Input ~ 0
 SWDIO
-Text GLabel 6250 2400 2    60   Input ~ 0
+Text GLabel 6250 2400 2    47   Input ~ 0
 SWDCLK
 $Comp
-L +5V #PWR030
+L +5V #PWR028
 U 1 1 575DB331
 P 4050 5450
-F 0 "#PWR030" H 4050 5300 50  0001 C CNN
+F 0 "#PWR028" H 4050 5300 50  0001 C CNN
 F 1 "+5V" H 4050 5600 50  0000 C CNN
 F 2 "" H 4050 5450 50  0000 C CNN
 F 3 "" H 4050 5450 50  0000 C CNN
@@ -865,30 +839,20 @@ F 3 "" H 4050 5450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG031
+L PWR_FLAG #FLG029
 U 1 1 575DB491
 P 1600 4250
-F 0 "#FLG031" H 1600 4345 50  0001 C CNN
+F 0 "#FLG029" H 1600 4345 50  0001 C CNN
 F 1 "PWR_FLAG" H 1600 4450 50  0000 C CNN
 F 2 "" H 1600 4250 50  0000 C CNN
 F 3 "" H 1600 4250 50  0000 C CNN
 	1    1600 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 6200 2500 0    60   Input ~ 0
+Text GLabel 6200 2500 0    47   Input ~ 0
 P0.21
-Text GLabel 6200 2800 0    60   Input ~ 0
+Text GLabel 6200 2800 0    47   Input ~ 0
 P0.18
-Text GLabel 9350 4150 0    60   Input ~ 0
-3V3
-Text GLabel 9850 6050 2    60   Input ~ 0
-GND
-Text GLabel 9850 6250 2    60   Input ~ 0
-GND
-Text GLabel 9850 5950 2    60   Input ~ 0
-3V3
-Text GLabel 9350 4300 0    60   Input ~ 0
-GND
 Text Label 7750 800  2    60   ~ 0
 ANTENNA
 $Comp
@@ -902,25 +866,25 @@ F 3 "" H 2600 5250 50  0000 C CNN
 	1    2600 5250
 	-1   0    0    1   
 $EndComp
-Text GLabel 1300 6450 2    60   Input ~ 0
+Text GLabel 1300 6450 2    47   Input ~ 0
 USB_VBUS
-Text GLabel 1200 4350 0    60   Input ~ 0
+Text GLabel 1200 4350 0    47   Input ~ 0
 5V_IN
-Text GLabel 1150 6300 0    60   Input ~ 0
+Text GLabel 1150 6300 0    47   Input ~ 0
 USB_VBUS
-Text GLabel 1300 6300 2    60   Input ~ 0
+Text GLabel 1300 6300 2    47   Input ~ 0
 5V_IN
-Text GLabel 2550 2600 2    60   Input ~ 0
+Text GLabel 2550 2600 2    47   Input ~ 0
 P0.05
-Text GLabel 2550 2700 2    60   Input ~ 0
+Text GLabel 2550 2700 2    47   Input ~ 0
 P0.06
-Text GLabel 2550 2800 2    60   Input ~ 0
+Text GLabel 2550 2800 2    47   Input ~ 0
 P0.07
-Text GLabel 2550 2900 2    60   Input ~ 0
+Text GLabel 2550 2900 2    47   Input ~ 0
 P0.08
-Text GLabel 6200 2600 0    60   Input ~ 0
+Text GLabel 6200 2600 0    47   Input ~ 0
 P0.20
-Text GLabel 6250 2600 2    60   Input ~ 0
+Text GLabel 6250 2600 2    47   Input ~ 0
 TRACECLK
 Wire Wire Line
 	5450 900  6100 900 
@@ -936,8 +900,6 @@ Wire Wire Line
 	2450 1000 2750 1000
 Wire Wire Line
 	2750 800  2450 800 
-Wire Wire Line
-	3150 650  3150 1000
 Connection ~ 3150 900 
 Connection ~ 3150 1000
 Connection ~ 3150 800 
@@ -1096,10 +1058,6 @@ Wire Wire Line
 Connection ~ 2250 4950
 Connection ~ 1750 5400
 Wire Wire Line
-	9350 4150 9400 4150
-Wire Wire Line
-	9400 4300 9350 4300
-Wire Wire Line
 	1300 6300 1150 6300
 Wire Wire Line
 	6250 2600 6200 2600
@@ -1117,14 +1075,108 @@ Wire Notes Line
 	7100 2100 7100 2950
 Wire Notes Line
 	7100 2950 6250 2950
-Text GLabel 10200 5850 2    60   Input ~ 0
+Text GLabel 10200 5850 2    47   Input ~ 0
 TRACECLK
-Text GLabel 10200 5750 2    60   Input ~ 0
+Text GLabel 10200 5750 2    47   Input ~ 0
 RESET
-Text GLabel 8750 5950 0    60   Input ~ 0
+Text GLabel 8750 5950 0    47   Input ~ 0
 SWO
-Text GLabel 9150 6250 0    60   Input ~ 0
-GND
-Text GLabel 9150 6150 0    60   Input ~ 0
-3V3
+Wire Wire Line
+	3150 700  3150 1000
+$Comp
+L GND #PWR030
+U 1 1 575DC1F5
+P 9150 6250
+F 0 "#PWR030" H 9150 6000 50  0001 C CNN
+F 1 "GND" V 9150 6050 50  0000 C CNN
+F 2 "" H 9150 6250 50  0000 C CNN
+F 3 "" H 9150 6250 50  0000 C CNN
+	1    9150 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR031
+U 1 1 575DC6AD
+P 9150 6150
+F 0 "#PWR031" H 9150 6000 50  0001 C CNN
+F 1 "+3V3" V 9151 6378 50  0000 C CNN
+F 2 "" H 9150 6150 50  0000 C CNN
+F 3 "" H 9150 6150 50  0000 C CNN
+	1    9150 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 575DC996
+P 9850 6250
+F 0 "#PWR032" H 9850 6000 50  0001 C CNN
+F 1 "GND" V 9850 6050 50  0000 C CNN
+F 2 "" H 9850 6250 50  0000 C CNN
+F 3 "" H 9850 6250 50  0000 C CNN
+	1    9850 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR033
+U 1 1 575DCAE2
+P 9850 5950
+F 0 "#PWR033" H 9850 5800 50  0001 C CNN
+F 1 "+3V3" V 9849 6173 50  0000 C CNN
+F 2 "" H 9850 5950 50  0000 C CNN
+F 3 "" H 9850 5950 50  0000 C CNN
+	1    9850 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 575DCBF4
+P 9850 6050
+F 0 "#PWR034" H 9850 5800 50  0001 C CNN
+F 1 "GND" V 9850 5850 50  0000 C CNN
+F 2 "" H 9850 6050 50  0000 C CNN
+F 3 "" H 9850 6050 50  0000 C CNN
+	1    9850 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X04 P4
+U 1 1 575E1282
+P 9650 4000
+F 0 "P4" H 9650 4250 50  0000 C CNN
+F 1 "I2C_OLED" V 9750 4000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 9650 4000 50  0001 C CNN
+F 3 "" H 9650 4000 50  0000 C CNN
+	1    9650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR035
+U 1 1 575E1789
+P 9450 4150
+F 0 "#PWR035" H 9450 4000 50  0001 C CNN
+F 1 "+3V3" V 9449 4373 50  0000 C CNN
+F 2 "" H 9450 4150 50  0000 C CNN
+F 3 "" H 9450 4150 50  0000 C CNN
+	1    9450 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 575E17E8
+P 9450 4050
+F 0 "#PWR036" H 9450 3800 50  0001 C CNN
+F 1 "GND" V 9450 3850 50  0000 C CNN
+F 2 "" H 9450 4050 50  0000 C CNN
+F 3 "" H 9450 4050 50  0000 C CNN
+	1    9450 4050
+	0    1    -1   0   
+$EndComp
+Text GLabel 9150 5150 0    47   Input ~ 0
+P0.08
+Text GLabel 9150 5050 0    47   Input ~ 0
+P0.07
+Text GLabel 9450 3950 0    47   Input ~ 0
+P0.12
+Text GLabel 9450 3850 0    47   Input ~ 0
+P0.11
 $EndSCHEMATC
