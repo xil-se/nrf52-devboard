@@ -1,4 +1,4 @@
-update=Sun 12 Jun 2016 02:25:56 AM CEST
+update=2016-06-16 01:03:25
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,20 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=../nc-libs;../kicad-library/schema-components
+LibDir=../nc-libs;../kicad-library/schema-components;../kicad-lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -74,14 +85,3 @@ LibName42=opt3001
 LibName43=si7006
 LibName44=tmp007
 LibName45=uvis25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1

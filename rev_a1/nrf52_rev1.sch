@@ -44,6 +44,7 @@ LIBS:opt3001
 LIBS:si7006
 LIBS:tmp007
 LIBS:uvis25
+LIBS:tom_kicad
 LIBS:nrf52_rev1-cache
 EELAYER 25 0
 EELAYER END
@@ -1091,7 +1092,7 @@ Wire Notes Line
 Wire Notes Line
 	7000 650  6050 650 
 Wire Wire Line
-	7000 800  7750 800 
+	7000 800  7800 800 
 Wire Notes Line
 	7750 800  7800 800 
 Wire Notes Line
