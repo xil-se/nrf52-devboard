@@ -727,13 +727,13 @@ Text GLabel 5050 6550 2    47   Input ~ 0
 UART_RTS
 Text GLabel 5050 6650 2    47   Input ~ 0
 UART_CTS
-Text GLabel 2500 2600 0    47   Input ~ 0
-UART_TXD
-Text GLabel 2500 2700 0    47   Input ~ 0
-UART_RXD
-Text GLabel 2500 2800 0    47   Input ~ 0
-UART_RTS
 Text GLabel 2500 2900 0    47   Input ~ 0
+UART_TXD
+Text GLabel 2500 2800 0    47   Input ~ 0
+UART_RXD
+Text GLabel 2500 2700 0    47   Input ~ 0
+UART_RTS
+Text GLabel 2500 2600 0    47   Input ~ 0
 UART_CTS
 Text GLabel 1150 6650 2    47   Input ~ 0
 USB_D+
