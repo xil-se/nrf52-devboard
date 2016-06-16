@@ -1,4 +1,4 @@
-update=2016-06-16 01:03:25
+update=Thu 16 Jun 2016 08:47:01 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -85,3 +85,4 @@ LibName42=opt3001
 LibName43=si7006
 LibName44=tmp007
 LibName45=uvis25
+LibName46=tom_kicad
