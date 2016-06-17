@@ -1,10 +1,9 @@
-Diodes
-    Iavg = 1.0A
-    Package = DO-214BA (GF1)
-    Price = 0.4 EUR
-    625-RGF1M-E3
-    http://www.mouser.se/search/ProductDetail.aspx?R=0virtualkey0virtualkeyRGF1M-E3-67A
-    
+Schottky diodes
+    Iavg = 0.5A
+    Package = SOD-123
+    Price = 0.35 EUR
+    863-MBR0540T1G
+    http://www.mouser.se/ProductDetail/ON-Semiconductor/MBR0540T1G/?qs=sGAEpiMZZMtQ8nqTKtFS%2fCKUxMvjsmGz%2frQBRp5Px7w%3d
 
 LDO
     Vout = 3.3V
