@@ -1051,7 +1051,7 @@
     (pad 6 thru_hole oval (at 3.4991 1.13746) (size 1.55 1) (drill oval 1.15 0.5) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
     (model ../../../../../../Users/Konrad/hw/nrf52/thirdparty/walter/conn_pc/usb_B_micro_smd-2.wrl
-      (at (xyz 0 -0 0))
+      (at (xyz 0 -0.04 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
