@@ -44,7 +44,6 @@ LIBS:opt3001
 LIBS:si7006
 LIBS:tmp007
 LIBS:uvis25
-LIBS:tom_kicad
 LIBS:nrf52_rev1-cache
 EELAYER 25 0
 EELAYER END
@@ -870,7 +869,7 @@ Text GLabel 9550 4950 2    47   Input ~ 0
 TRACECLK
 Text GLabel 9550 4850 2    47   Input ~ 0
 RESET
-Text GLabel 9600 5150 2    47   Input ~ 0
+Text GLabel 9550 5150 2    47   Input ~ 0
 SWO
 $Comp
 L GND #PWR030
