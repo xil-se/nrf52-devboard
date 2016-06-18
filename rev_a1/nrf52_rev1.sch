@@ -425,23 +425,23 @@ $EndComp
 $Comp
 L CONN_01X18 P2
 U 1 1 57597D87
-P 8650 5000
-F 0 "P2" H 8650 5950 50  0000 C CNN
-F 1 "CONN_01X18" V 8750 5000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x18" H 8650 5000 50  0001 C CNN
-F 3 "" H 8650 5000 50  0000 C CNN
-	1    8650 5000
+P 8900 3400
+F 0 "P2" H 8900 4350 50  0000 C CNN
+F 1 "CONN_01X18" V 9000 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18" H 8900 3400 50  0001 C CNN
+F 3 "" H 8900 3400 50  0000 C CNN
+	1    8900 3400
 	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X18 P1
 U 1 1 57597D15
-P 9000 5000
-F 0 "P1" H 9000 5950 50  0000 C CNN
-F 1 "CONN_01X18" V 9100 5000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x18" H 9000 5000 50  0001 C CNN
-F 3 "" H 9000 5000 50  0000 C CNN
-	1    9000 5000
+P 9250 3400
+F 0 "P1" H 9250 4350 50  0000 C CNN
+F 1 "CONN_01X18" V 9350 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x18" H 9250 3400 50  0001 C CNN
+F 3 "" H 9250 3400 50  0000 C CNN
+	1    9250 3400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -477,70 +477,70 @@ F 3 "" H 900 4150 50  0000 C CNN
 	1    900  4150
 	0    -1   1    0   
 $EndComp
-Text GLabel 8450 5750 0    47   Input ~ 0
+Text GLabel 8700 4150 0    47   Input ~ 0
 5V_IN
 $Comp
 L +5V #PWR020
 U 1 1 575C79F8
-P 1200 3500
-F 0 "#PWR020" H 1200 3350 50  0001 C CNN
-F 1 "+5V" V 1200 3700 50  0000 C CNN
-F 2 "" H 1200 3500 50  0000 C CNN
-F 3 "" H 1200 3500 50  0000 C CNN
-	1    1200 3500
+P 1750 3550
+F 0 "#PWR020" H 1750 3400 50  0001 C CNN
+F 1 "+5V" V 1750 3750 50  0000 C CNN
+F 2 "" H 1750 3550 50  0000 C CNN
+F 3 "" H 1750 3550 50  0000 C CNN
+	1    1750 3550
 	0    1    -1   0   
 $EndComp
-Text GLabel 9200 5250 2    47   Input ~ 0
+Text GLabel 9450 3650 2    47   Input ~ 0
 P0.17
-Text GLabel 9200 5350 2    47   Input ~ 0
+Text GLabel 9450 3750 2    47   Input ~ 0
 P0.16
-Text GLabel 9200 5450 2    47   Input ~ 0
+Text GLabel 9450 3850 2    47   Input ~ 0
 P0.15
-Text GLabel 9200 5550 2    47   Input ~ 0
+Text GLabel 9450 3950 2    47   Input ~ 0
 P0.14
-Text GLabel 9200 5650 2    47   Input ~ 0
+Text GLabel 9450 4050 2    47   Input ~ 0
 P0.13
-Text GLabel 9200 5750 2    47   Input ~ 0
+Text GLabel 9450 4150 2    47   Input ~ 0
 P0.12
-Text GLabel 9200 5850 2    47   Input ~ 0
+Text GLabel 9450 4250 2    47   Input ~ 0
 P0.11
-Text GLabel 8450 4850 0    47   Input ~ 0
+Text GLabel 8700 3250 0    47   Input ~ 0
 P0.02
-Text GLabel 8450 4950 0    47   Input ~ 0
+Text GLabel 8700 3350 0    47   Input ~ 0
 P0.03
-Text GLabel 8450 5050 0    47   Input ~ 0
+Text GLabel 8700 3450 0    47   Input ~ 0
 P0.04
-Text GLabel 8450 5150 0    47   Input ~ 0
+Text GLabel 8700 3550 0    47   Input ~ 0
 P0.05
-Text GLabel 8450 5250 0    47   Input ~ 0
+Text GLabel 8700 3650 0    47   Input ~ 0
 P0.06
-Text GLabel 9200 5050 2    47   Input ~ 0
+Text GLabel 9450 3450 2    47   Input ~ 0
 P0.19
-Text GLabel 9200 4950 2    47   Input ~ 0
+Text GLabel 9450 3350 2    47   Input ~ 0
 P0.20
-Text GLabel 9200 4850 2    47   Input ~ 0
+Text GLabel 9450 3250 2    47   Input ~ 0
 P0.21
-Text GLabel 9200 4550 2    47   Input ~ 0
+Text GLabel 9450 2950 2    47   Input ~ 0
 P0.22
-Text GLabel 9200 4450 2    47   Input ~ 0
+Text GLabel 9450 2850 2    47   Input ~ 0
 P0.23
-Text GLabel 9200 4350 2    47   Input ~ 0
+Text GLabel 9450 2750 2    47   Input ~ 0
 P0.24
-Text GLabel 8450 4150 0    47   Input ~ 0
+Text GLabel 8700 2550 0    47   Input ~ 0
 P0.25
-Text GLabel 8450 4250 0    47   Input ~ 0
+Text GLabel 8700 2650 0    47   Input ~ 0
 P0.26
-Text GLabel 8450 4350 0    47   Input ~ 0
+Text GLabel 8700 2750 0    47   Input ~ 0
 P0.27
-Text GLabel 8450 4450 0    47   Input ~ 0
+Text GLabel 8700 2850 0    47   Input ~ 0
 P0.28
-Text GLabel 8450 4550 0    47   Input ~ 0
+Text GLabel 8700 2950 0    47   Input ~ 0
 P0.29
-Text GLabel 8450 4650 0    47   Input ~ 0
+Text GLabel 8700 3050 0    47   Input ~ 0
 P0.30
-Text GLabel 9200 5150 2    47   Input ~ 0
+Text GLabel 9450 3550 2    47   Input ~ 0
 P0.18
-Text GLabel 8450 4750 0    47   Input ~ 0
+Text GLabel 8700 3150 0    47   Input ~ 0
 P0.31
 Text GLabel 3250 2300 0    47   Input ~ 0
 P0.02
@@ -680,9 +680,9 @@ Text GLabel 3250 1800 0    47   Input ~ 0
 XC1
 Text GLabel 3250 1900 0    47   Input ~ 0
 XC2
-Text GLabel 9200 4650 2    47   Input ~ 0
+Text GLabel 9450 3050 2    47   Input ~ 0
 SWDIO
-Text GLabel 9200 4750 2    47   Input ~ 0
+Text GLabel 9450 3150 2    47   Input ~ 0
 SWDCLK
 Text GLabel 6250 2500 2    47   Input ~ 0
 RESET
@@ -695,12 +695,12 @@ SWDCLK
 $Comp
 L PWR_FLAG #FLG024
 U 1 1 575DB491
-P 1150 3400
-F 0 "#FLG024" H 1150 3495 50  0001 C CNN
-F 1 "PWR_FLAG" H 1150 3600 50  0000 C CNN
-F 2 "" H 1150 3400 50  0000 C CNN
-F 3 "" H 1150 3400 50  0000 C CNN
-	1    1150 3400
+P 1700 3450
+F 0 "#FLG024" H 1700 3545 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 3650 50  0000 C CNN
+F 2 "" H 1700 3450 50  0000 C CNN
+F 3 "" H 1700 3450 50  0000 C CNN
+	1    1700 3450
 	1    0    0    -1  
 $EndComp
 Text GLabel 6200 2500 0    47   Input ~ 0
@@ -718,7 +718,7 @@ F 3 "" H 2750 4450 50  0000 C CNN
 	1    2750 4450
 	-1   0    0    1   
 $EndComp
-Text GLabel 750  3500 0    47   Input ~ 0
+Text GLabel 1300 3550 0    47   Input ~ 0
 5V_IN
 Text GLabel 2350 5850 2    47   Input ~ 0
 P0.05
@@ -734,70 +734,70 @@ Text GLabel 6250 2600 2    47   Input ~ 0
 TRACECLK
 Text Notes 6300 2200 0    60   ~ 0
 Debug interface
-Text GLabel 9550 4950 2    47   Input ~ 0
+Text GLabel 9800 3350 2    47   Input ~ 0
 TRACECLK
-Text GLabel 9550 4850 2    47   Input ~ 0
+Text GLabel 9800 3250 2    47   Input ~ 0
 RESET
-Text GLabel 9550 5150 2    47   Input ~ 0
+Text GLabel 9800 3550 2    47   Input ~ 0
 SWO
 $Comp
 L GND #PWR025
 U 1 1 575DC1F5
-P 9200 4150
-F 0 "#PWR025" H 9200 3900 50  0001 C CNN
-F 1 "GND" V 9200 3950 50  0000 C CNN
-F 2 "" H 9200 4150 50  0000 C CNN
-F 3 "" H 9200 4150 50  0000 C CNN
-	1    9200 4150
+P 9450 2550
+F 0 "#PWR025" H 9450 2300 50  0001 C CNN
+F 1 "GND" V 9450 2350 50  0000 C CNN
+F 2 "" H 9450 2550 50  0000 C CNN
+F 3 "" H 9450 2550 50  0000 C CNN
+	1    9450 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L +3V3 #PWR026
 U 1 1 575DC6AD
-P 9200 4250
-F 0 "#PWR026" H 9200 4100 50  0001 C CNN
-F 1 "+3V3" V 9201 4478 50  0000 C CNN
-F 2 "" H 9200 4250 50  0000 C CNN
-F 3 "" H 9200 4250 50  0000 C CNN
-	1    9200 4250
+P 9450 2650
+F 0 "#PWR026" H 9450 2500 50  0001 C CNN
+F 1 "+3V3" V 9451 2878 50  0000 C CNN
+F 2 "" H 9450 2650 50  0000 C CNN
+F 3 "" H 9450 2650 50  0000 C CNN
+	1    9450 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR027
 U 1 1 575DC996
-P 8450 5850
-F 0 "#PWR027" H 8450 5600 50  0001 C CNN
-F 1 "GND" V 8450 5650 50  0000 C CNN
-F 2 "" H 8450 5850 50  0000 C CNN
-F 3 "" H 8450 5850 50  0000 C CNN
-	1    8450 5850
+P 8700 4250
+F 0 "#PWR027" H 8700 4000 50  0001 C CNN
+F 1 "GND" V 8700 4050 50  0000 C CNN
+F 2 "" H 8700 4250 50  0000 C CNN
+F 3 "" H 8700 4250 50  0000 C CNN
+	1    8700 4250
 	0    1    -1   0   
 $EndComp
 $Comp
 L +3V3 #PWR028
 U 1 1 575DCAE2
-P 8450 5550
-F 0 "#PWR028" H 8450 5400 50  0001 C CNN
-F 1 "+3V3" V 8449 5773 50  0000 C CNN
-F 2 "" H 8450 5550 50  0000 C CNN
-F 3 "" H 8450 5550 50  0000 C CNN
-	1    8450 5550
+P 8700 3950
+F 0 "#PWR028" H 8700 3800 50  0001 C CNN
+F 1 "+3V3" V 8699 4173 50  0000 C CNN
+F 2 "" H 8700 3950 50  0000 C CNN
+F 3 "" H 8700 3950 50  0000 C CNN
+	1    8700 3950
 	0    -1   1    0   
 $EndComp
 $Comp
 L GND #PWR029
 U 1 1 575DCBF4
-P 8450 5650
-F 0 "#PWR029" H 8450 5400 50  0001 C CNN
-F 1 "GND" V 8450 5450 50  0000 C CNN
-F 2 "" H 8450 5650 50  0000 C CNN
-F 3 "" H 8450 5650 50  0000 C CNN
-	1    8450 5650
+P 8700 4050
+F 0 "#PWR029" H 8700 3800 50  0001 C CNN
+F 1 "GND" V 8700 3850 50  0000 C CNN
+F 2 "" H 8700 4050 50  0000 C CNN
+F 3 "" H 8700 4050 50  0000 C CNN
+	1    8700 4050
 	0    1    -1   0   
 $EndComp
-Text GLabel 8450 5450 0    47   Input ~ 0
+Text GLabel 8700 3850 0    47   Input ~ 0
 P0.08
-Text GLabel 8450 5350 0    47   Input ~ 0
+Text GLabel 8700 3750 0    47   Input ~ 0
 P0.07
 $Comp
 L C C15
@@ -813,12 +813,12 @@ $EndComp
 $Comp
 L D_Schottky D1
 U 1 1 57645A72
-P 900 3500
-F 0 "D1" H 900 3284 50  0000 C CNN
-F 1 "D_Schottky" H 900 3375 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 900 3500 50  0001 C CNN
-F 3 "" H 900 3500 50  0000 C CNN
-	1    900  3500
+P 1450 3550
+F 0 "D1" H 1450 3334 50  0000 C CNN
+F 1 "D_Schottky" H 1450 3425 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 1450 3550 50  0001 C CNN
+F 3 "" H 1450 3550 50  0000 C CNN
+	1    1450 3550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1056,10 +1056,10 @@ Connection ~ 4750 4100
 Wire Wire Line
 	2750 4300 2750 4150
 Wire Wire Line
-	1050 3500 1200 3500
-Connection ~ 1150 3500
+	1600 3550 1750 3550
+Connection ~ 1700 3550
 Wire Wire Line
-	1150 3500 1150 3400
+	1700 3550 1700 3450
 Wire Wire Line
 	3950 4500 4250 4500
 Wire Wire Line
