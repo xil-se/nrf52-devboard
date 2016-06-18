@@ -1,0 +1,259 @@
+Cmp-Mod V01 Created by PcbNew   date = Thu 16 Jun 2016 09:45:14 PM CEST
+
+BeginCmp
+TimeStamp = 575D7274
+Path = /57597D15
+Reference = P1;
+ValeurCmp = CONN_01X18;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x18;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9326
+Path = /575895CD
+Reference = C3;
+ValeurCmp = 1u;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D7258
+Path = /575890C7
+Reference = L2;
+ValeurCmp = 10u;
+IdModule  = RuuviTag:0603_IND;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D937A
+Path = /57589052
+Reference = L1;
+ValeurCmp = 15n;
+IdModule  = RuuviTag:0603_IND;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D7310
+Path = /5759DED7
+Reference = U3;
+ValeurCmp = LT1129CST-3.3;
+IdModule  = TO_SOT_Packages_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D7308
+Path = /5759B4E8
+Reference = U2;
+ValeurCmp = CP2102;
+IdModule  = Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D7246
+Path = /5759A58F
+Reference = D1;
+ValeurCmp = D;
+IdModule  = Diodes_SMD:DO-214BA;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D724C
+Path = /575C7A80
+Reference = D2;
+ValeurCmp = D;
+IdModule  = Diodes_SMD:DO-214BA;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D728A
+Path = /57597D87
+Reference = P2;
+ValeurCmp = CONN_01X18;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x18;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D7297
+Path = /57599615
+Reference = P3;
+ValeurCmp = USB_OTG;
+IdModule  = Connect:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D72E4
+Path = /57587DA5
+Reference = U1;
+ValeurCmp = nRF52832;
+IdModule  = RuuviTag:QFN-48_6X6MM_BOTPAD;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D7316
+Path = /575D0E88
+Reference = Y1;
+ValeurCmp = 32K;
+IdModule  = RuuviTag:32X15MM_2PIN_CRYSTAL;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D731E
+Path = /57589FB5
+Reference = Y2;
+ValeurCmp = 32M;
+IdModule  = RuuviTag:20X16MM_4PIN_CRYSTAL;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9318
+Path = /575D0E8E
+Reference = C1;
+ValeurCmp = 12p;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D931F
+Path = /575D0E94
+Reference = C2;
+ValeurCmp = 12p;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D932D
+Path = /57587F8E
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9334
+Path = /575884DD
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D933B
+Path = /575884F6
+Reference = C6;
+ValeurCmp = 4u7;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9342
+Path = /57588796
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9349
+Path = /575887AC
+Reference = C8;
+ValeurCmp = NC;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9350
+Path = /575887B2
+Reference = C9;
+ValeurCmp = 100p;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9357
+Path = /57589CE7
+Reference = C10;
+ValeurCmp = 12p;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D935E
+Path = /5758A01B
+Reference = C11;
+ValeurCmp = 12p;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9365
+Path = /5758C014
+Reference = C12;
+ValeurCmp = 0p8;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D936C
+Path = /57592D23
+Reference = C13;
+ValeurCmp = NC;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9373
+Path = /575C903A
+Reference = C14;
+ValeurCmp = 4u7;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575D9381
+Path = /5758C04D
+Reference = L3;
+ValeurCmp = 3n9;
+IdModule  = RuuviTag:0603_IND;
+EndCmp
+
+BeginCmp
+TimeStamp = 575DCF9F
+Path = /575E0935
+Reference = C15;
+ValeurCmp = 4u7;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575DCFA7
+Path = /575DEE65
+Reference = C16;
+ValeurCmp = 4u7;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575DCFAF
+Path = /575DD367
+Reference = C17;
+ValeurCmp = 100n;
+IdModule  = RuuviTag:0603_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = 575DCFB7
+Path = /575DCC9A
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = RuuviTag:0603_RES;
+EndCmp
+
+BeginCmp
+TimeStamp = 5762FFDD
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = xil_assets:logo_inv;
+EndCmp
+
+EndListe

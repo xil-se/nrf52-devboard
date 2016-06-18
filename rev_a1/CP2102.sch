@@ -1,0 +1,255 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:4pin_crystal
+LIBS:adxl363
+LIBS:at30ts74_wlcsp
+LIBS:bmxx80
+LIBS:da1458x_wlcsp34
+LIBS:generic_dataflash
+LIBS:h3lis331dl
+LIBS:lis3dh
+LIBS:lis331dlh
+LIBS:lps25h
+LIBS:ms5637
+LIBS:nrf52832
+LIBS:opt3001
+LIBS:si7006
+LIBS:tmp007
+LIBS:uvis25
+LIBS:nrf52_rev1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB_OTG P3
+U 1 1 5765BA3C
+P 3400 3700
+F 0 "P3" H 3725 3575 50  0000 C CNN
+F 1 "USB_OTG" H 3400 3900 50  0000 C CNN
+F 2 "Connect:USB_Micro-B" V 3350 3600 50  0001 C CNN
+F 3 "" V 3350 3600 50  0000 C CNN
+	1    3400 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 5765BA43
+P 3300 4100
+F 0 "#PWR035" H 3300 3850 50  0001 C CNN
+F 1 "GND" H 3300 3950 50  0000 C CNN
+F 2 "" H 3300 4100 50  0000 C CNN
+F 3 "" H 3300 4100 50  0000 C CNN
+	1    3300 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 5765BA49
+P 3700 3900
+F 0 "#PWR036" H 3700 3650 50  0001 C CNN
+F 1 "GND" H 3700 3750 50  0000 C CNN
+F 2 "" H 3700 3900 50  0000 C CNN
+F 3 "" H 3700 3900 50  0000 C CNN
+	1    3700 3900
+	0    -1   1    0   
+$EndComp
+NoConn ~ 3700 3800
+$Comp
+L CP2102 U2
+U 1 1 5765BA50
+P 6250 3650
+F 0 "U2" H 6250 3550 50  0000 C CNN
+F 1 "CP2102" H 6250 3750 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 6250 3650 60  0001 C CNN
+F 3 "cp2102.pdf" H 6250 3650 60  0000 C CNN
+	1    6250 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6800 4600
+NoConn ~ 6700 4600
+NoConn ~ 6600 4600
+NoConn ~ 6500 4600
+NoConn ~ 6400 4600
+NoConn ~ 6300 4600
+NoConn ~ 6200 4600
+NoConn ~ 6000 4600
+NoConn ~ 5800 4600
+NoConn ~ 5900 4600
+NoConn ~ 6100 4600
+$Comp
+L GND #PWR037
+U 1 1 5765BA62
+P 5700 4600
+F 0 "#PWR037" H 5700 4350 50  0001 C CNN
+F 1 "GND" H 5700 4450 50  0000 C CNN
+F 2 "" H 5700 4600 50  0000 C CNN
+F 3 "" H 5700 4600 50  0000 C CNN
+	1    5700 4600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7600 4100
+NoConn ~ 7600 4000
+NoConn ~ 7600 3900
+NoConn ~ 7600 3800
+NoConn ~ 7600 3300
+NoConn ~ 7600 3200
+Text Notes 6850 2950 0    60   ~ 0
+Configured to bypass internal regulator.\nUses our 5v to 3v3 regulator.
+$Comp
+L +3V3 #PWR038
+U 1 1 5765BA6F
+P 6800 2300
+F 0 "#PWR038" H 6800 2150 50  0001 C CNN
+F 1 "+3V3" H 6800 2440 50  0000 C CNN
+F 2 "" H 6800 2300 50  0000 C CNN
+F 3 "" H 6800 2300 50  0000 C CNN
+	1    6800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR039
+U 1 1 5765BA7D
+P 6600 2300
+F 0 "#PWR039" H 6600 2150 50  0001 C CNN
+F 1 "+5V" H 6600 2450 50  0000 C CNN
+F 2 "" H 6600 2300 50  0000 C CNN
+F 3 "" H 6600 2300 50  0000 C CNN
+	1    6600 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5765BA86
+P 4750 3400
+F 0 "R1" V 4830 3400 50  0000 C CNN
+F 1 "4k7" V 4750 3400 50  0000 C CNN
+F 2 "RuuviTag:0603_RES" V 4680 3400 50  0001 C CNN
+F 3 "" H 4750 3400 50  0000 C CNN
+	1    4750 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR040
+U 1 1 5765BA8D
+P 4600 3400
+F 0 "#PWR040" H 4600 3250 50  0001 C CNN
+F 1 "+3V3" V 4600 3650 50  0000 C CNN
+F 2 "" H 4600 3400 50  0000 C CNN
+F 3 "" H 4600 3400 50  0000 C CNN
+	1    4600 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C17
+U 1 1 5765BA93
+P 7050 2650
+F 0 "C17" V 7005 2708 50  0000 L CNN
+F 1 "100n" V 6978 2611 50  0000 R TNN
+F 2 "RuuviTag:0603_CAP" H 7088 2500 50  0001 C CNN
+F 3 "" H 7050 2650 50  0000 C CNN
+	1    7050 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 5765BA9A
+P 7200 2650
+F 0 "#PWR041" H 7200 2400 50  0001 C CNN
+F 1 "GND" H 7200 2500 50  0000 C CNN
+F 2 "" H 7200 2650 50  0000 C CNN
+F 3 "" H 7200 2650 50  0000 C CNN
+	1    7200 2650
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR042
+U 1 1 5765BAA0
+P 7200 2400
+F 0 "#PWR042" H 7200 2150 50  0001 C CNN
+F 1 "GND" H 7200 2250 50  0000 C CNN
+F 2 "" H 7200 2400 50  0000 C CNN
+F 3 "" H 7200 2400 50  0000 C CNN
+	1    7200 2400
+	0    -1   1    0   
+$EndComp
+$Comp
+L C C16
+U 1 1 5765BAA6
+P 7050 2400
+F 0 "C16" V 7005 2458 50  0000 L CNN
+F 1 "4u7" V 6978 2361 50  0000 R TNN
+F 2 "RuuviTag:0603_CAP" H 7088 2250 50  0001 C CNN
+F 3 "" H 7050 2400 50  0000 C CNN
+	1    7050 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 2300 6600 2700
+Connection ~ 6800 2650
+Wire Wire Line
+	6800 2650 6900 2650
+Connection ~ 6800 2400
+Wire Wire Line
+	6700 2400 6900 2400
+Wire Wire Line
+	6700 2700 6700 2400
+Wire Wire Line
+	6800 2300 6800 2700
+Text HLabel 7600 3400 2    47   Output ~ 0
+UART_TXD
+Text HLabel 7600 3500 2    47   Input ~ 0
+UART_RXD
+Text HLabel 7600 3600 2    47   BiDi ~ 0
+UART_RTS
+Text HLabel 7600 3700 2    47   BiDi ~ 0
+UART_CTS
+Text Label 3700 3600 0    47   ~ 0
+USB_D-
+Text Label 3700 3700 0    47   ~ 0
+USB_D+
+Text Label 4900 3200 2    47   ~ 0
+USB_D+
+Text Label 4900 3300 2    47   ~ 0
+USB_D-
+Text HLabel 3700 3500 2    47   Output ~ 0
+USB_VBUS
+$EndSCHEMATC
