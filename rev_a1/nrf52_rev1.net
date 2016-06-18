@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/konrad/hw/nrf52/rev_a1/nrf52_rev1.sch)
-    (date "Sat 18 Jun 2016 07:57:29 PM CEST")
+    (date "Sat 18 Jun 2016 11:07:11 PM CEST")
     (tool "Eeschema (2016-06-08 BZR 6904)-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -185,6 +185,7 @@
       (tstamp 57645B7F))
     (comp (ref P5)
       (value ANTENNA_NFC)
+      (footprint xil_assets:nfc_30x18_w05mm_s06mm)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /) (tstamps /))
       (tstamp 57654894))
