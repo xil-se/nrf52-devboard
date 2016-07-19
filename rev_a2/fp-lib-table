@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name assets)(type KiCad)(uri /Users/kbeckmann/Documents/kicad/nrf52-devboard/assets)(options "")(descr ""))
+  (lib (name Ruuvi)(type KiCad)(uri /Users/kbeckmann/Documents/kicad/nrf52-devboard/kicad-library/Ruuvi.pretty)(options "")(descr ""))
+  (lib (name RuuviTag)(type KiCad)(uri /Users/kbeckmann/Documents/kicad/nrf52-devboard/kicad-library/RuuviTag.pretty)(options "")(descr ""))
+)
